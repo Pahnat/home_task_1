@@ -1,42 +1,14 @@
-import java.util.Arrays;
-
 public class ThreeNumbers {
 
-//    this code isn't ready
+    public static void countOfEquals(String num1, String num2, String num3) {
 
-/*
-    private static int x1;
-    private static int x2;
-    private static int x3;
-    private static int[] ints = new int[3];
-
-    public static void main(String[] args) {
-
-        x1 = 1;
-        x2 = 2;
-        x3 = 3;
-        for ()
-
-        System.out.println(Arrays.toString(ints));
-        isEqual();
-
-
-
-
-    }
-
-    private static void isEqual(){
-        int num = 0;
-        for(int i = 0; i < ints.length; i++){
-            for(int j = 1; j < ints.length; j++){
-                if(ints[i] == ints[j]){
-                    num++;
-                    break;
-                }
-            }
+        if (num1.equals(num2) && num1.equals(num3)) {
+            System.out.println(3);
+        } else if (num1.equals(num2) || num2.equals(num3) || num1.equals(num3)) {
+            System.out.println(2);
+        } else {
+            System.out.println(0);
         }
-        System.out.println(num);
     }
 
- */
 }
